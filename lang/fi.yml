@@ -1,0 +1,54 @@
+fi:
+  LocalDate:
+    Jan: tammi
+    Feb: helmi
+    Mar: maalis
+    Apr: huhti
+    May: touko
+    Jun: kesä
+    Jul: heinä
+    Aug: elo
+    Sep: syys
+    Oct: loka
+    Nov: marras
+    Dec: joulu
+    January: tammikuu
+    February: helmikuu
+    March: maaliskuu
+    April: huhtikuu
+    May: toukokuu
+    June: kesäkuu
+    July: heinäkuu
+    August: elokuu
+    September: syyskuu
+    October: lokakuu
+    November: marraskuu
+    December: joulukuu
+    Mon: ma
+    Tue: ti
+    Wed: ke
+    Thu: to
+    Fri: pe
+    Sat: la
+    Sun: su
+    Monday: maanantai
+    Tuesday: tiistai
+    Wednesday: keskiviiko
+    Thursday: torstai
+    Friday: perjantai
+    Saturday: lauantai
+    Sunday: sunnuntai
+    am: aamulla
+    pm: toista
+    AM: AAMULLA
+    PM: TOISTA
+    st: ':nen'
+    nd: ':nen'
+    rd: ':s'
+    th: ':s'
+  LocalDateFormat:
+    Nice: 'j.n.Y g:ia'
+    Nice24: 'j.n.Y H:i'
+    Date: 'j.n.Y'
+    Time: 'g:ia'
+    Time24: 'H:i'

@@ -1,0 +1,54 @@
+mi_NZ:
+  LocalDate:
+    Jan: Kohi
+    Feb: Hui
+    Mar: Pou
+    Apr: Pae
+    May: Hara
+    Jun: Pipi
+    Jul: Hōngo
+    Aug: Here
+    Sep: Mahu
+    Oct: Nuku
+    Nov: Rangi
+    Dec: Haki
+    January: Kohitātea
+    February: Huitanguru
+    March: Poutū te rangi
+    April: Paengawhāwhā
+    May: Haratua
+    June: Pipiri
+    July: Hōngongoi
+    August: Hereturikōkā
+    September: Mahuru
+    October: Whiringa ā-nuku
+    November: Whiringa ā-rangi
+    December: Hakihea
+    Mon: Hi
+    Tue: Tū
+    Wed: Apa
+    Thu: Pā
+    Fri: Me
+    Sat: Ho
+    Sun: Ta
+    Monday: Rāhina
+    Tuesday: Rātū
+    Wednesday: Rāapa
+    Thursday: Rāpare
+    Friday: Rāmere
+    Saturday: Rāhoroi
+    Sunday: Rātapu
+    am: am
+    pm: pm
+    AM: AM
+    PM: PM
+    st: '.'
+    nd: '.'
+    rd: '.'
+    th: '.'
+  LocalDateFormat:
+    Nice: 'd/m/Y g:ia'
+    Nice24: 'd/m/Y H:i'
+    Date: 'd/m/Y'
+    Time: 'g:ia'
+    Time24: 'H:i'

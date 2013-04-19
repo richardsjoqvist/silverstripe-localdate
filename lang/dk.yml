@@ -1,0 +1,54 @@
+dk:
+  LocalDate:
+    Jan: Jan
+    Feb: Feb
+    Mar: Mar
+    Apr: Apr
+    May: Maj
+    Jun: Jun
+    Jul: Jul
+    Aug: Aug
+    Sep: Sep
+    Oct: Okt
+    Nov: Nov
+    Dec: Dec
+    January: Januar
+    February: Februar
+    March: Marts
+    April: April
+    May: Maj
+    June: Juni
+    July: Juli
+    August: August
+    September: September
+    October: Oktober
+    November: November
+    December: December
+    Mon: Man
+    Tue: Tir
+    Wed: Ons
+    Thu: Tor
+    Fri: Fre
+    Sat: Lør
+    Sun: Søn
+    Monday: Mandag
+    Tuesday: Tirsdag
+    Wednesday: Onsdag
+    Thursday: Torsdag
+    Friday: Fredag
+    Saturday: Lørdag
+    Sunday: Søndag
+    am: 'a.m.'
+    pm: 'p.m.'
+    AM: 'A.M.'
+    PM: 'P.M.'
+    st: '.'
+    nd: '.'
+    rd: '.'
+    th: '.'
+  LocalDateFormat:
+    Nice: 'j.m.Y g:ia'
+    Nice24: 'j.m.Y H:i'
+    Date: 'j.m.Y'
+    Time: 'g:ia'
+    Time24: 'H:i'

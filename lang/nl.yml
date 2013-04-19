@@ -1,0 +1,54 @@
+nl:
+  LocalDate:
+    Jan: Jan
+    Feb: Feb
+    Mar: Mrt
+    Apr: Apr
+    May: Mei
+    Jun: Jun
+    Jul: Jul
+    Aug: Aug
+    Sep: Sep
+    Oct: Okt
+    Nov: Nov
+    Dec: Dec
+    January: Januari
+    February: Februari
+    March: Maart
+    April: April
+    May: Mei
+    June: Juni
+    July: Juli
+    August: Augustus
+    September: September
+    October: Oktober
+    November: November
+    December: Dezember
+    Mon: Ma
+    Tue: Di
+    Wed: Wo
+    Thu: Do
+    Fri: Vr
+    Sat: Za
+    Sun: Zo
+    Monday: Maandag
+    Tuesday: Dinsdag
+    Wednesday: Woensdag
+    Thursday: Donderdag
+    Friday: Vrijdag
+    Saturday: Zaterdag
+    Sunday: Zondag
+    am: snahgts
+    pm: 'smid-dahgs'
+    AM: SNAHGTS
+    PM: 'SMID-dahgs'
+    st: e
+    nd: e
+    rd: e
+    th: e
+  LocalDateFormat:
+    Nice: 'd-m-Y g:i'
+    Nice24: 'd-m-Y H:i'
+    Date: 'd-m-Y'
+    Time: 'g:i'
+    Time24: 'H:i'
