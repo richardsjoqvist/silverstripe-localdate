@@ -1,0 +1,18 @@
+{
+	"name": "richardsjoqvist/silverstripe-localdate",
+	"type": "silverstripe-module",
+	"description": "Translates formatted date strings to the locale set with i18n::set_locale() if there is a matching language file.",
+	"homepage": "https://github.com/richardsjoqvist/silverstripe-localdate",
+	"keywords": ["silverstripe", "module", "localdate", "date", "locale"],
+	"authors": [
+		{
+			"name": "Richard Sjöqvist",
+			"homepage": "https://github.com/richardsjoqvist"
+		}
+	],
+	"require": {
+		"php": ">=5.3.2",
+		"composer/installers": "*",
+		"silverstripe/framework": "3.0.*"
+	}
+}
