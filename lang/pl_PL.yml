@@ -1,0 +1,54 @@
+pl_PL:
+  LocalDate:
+    Jan: Sty
+    Feb: Lut
+    Mar: Mar
+    Apr: Kwi
+    May: Maj
+    Jun: Cze
+    Jul: Lip
+    Aug: Sie
+    Sep: Wrz
+    Oct: Paź
+    Nov: Lis
+    Dec: Gdu
+    January: Styczeń
+    February: Luty
+    March: Marzec
+    April: Kwiecień
+    May: Maj
+    June: Czerwiec
+    July: Lipiec
+    August: Sierpień
+    September: Wrzesień
+    October: Październik
+    November: Listopad
+    December: Grudzień
+    Mon: Pon
+    Tue: Wto
+    Wed: Śro
+    Thu: Czw
+    Fri: Pią
+    Sat: Sob
+    Sun: Nie
+    Monday: Poniedziałek
+    Tuesday: Wtorek
+    Wednesday: Środa
+    Thursday: Czwartek
+    Friday: Piątek
+    Saturday: Sobota
+    Sunday: Niedziela
+    am: am
+    pm: pm
+    AM: AM
+    PM: PM
+    st: st
+    nd: nd
+    rd: rd
+    th: th
+  LocalDateFormat:
+    Nice: 'd/m/Y G:i'
+    Nice24: 'd/m/Y H:i'
+    Date: 'd/m/Y'
+    Time: 'G:i'
+    Time24: 'H:i'
