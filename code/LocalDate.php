@@ -8,12 +8,12 @@ class LocalDate extends Date {
 		if($this->value) return $this->Format(_t('LocalDateFormat.Nice','d/m/Y'));
 	}
 
-	public function Nice24() {
-		if($this->value) return $this->Format(_t('LocalDateFormat.Nice24','d/m/Y'));
+	public function Long() {
+		if($this->value) return $this->Format(_t('LocalDateFormat.Long','j F Y'));
 	}
 
-	public function Date() {
-		if($this->value) return $this->Format(_t('LocalDateFormat.Date','d/m/Y'));
+	public function Full() {
+		if($this->value) return $this->Format(_t('LocalDateFormat.Full','j M Y'));
 	}
 
 	/**
@@ -23,35 +23,10 @@ class LocalDate extends Date {
 	 * @return string The date in the requested format
 	 */
 	public function Format($format) {
-		if($this->value){
-			// Set date
-			$date = new DateTime($this->value);
-			// Flag escaped chars (or there will be problems with formats like "F\D")
-			$escapeId = '-'.time().'-';
-			$format = str_replace('\\', $escapeId.'\\', $format);
-			// Get formatted date
-			$dateStr = $date->Format($format);
-			// Translate all word-strings
-			$dateStr = preg_replace_callback("/([a-z]*)([^a-z])/isU",array($this,'FormatLocalDate'),$dateStr.' ');
-			// Remove escape flags
-			$dateStr = str_replace($escapeId, '', $dateStr);
+		if($this->value) {
 			// Return translated date string
-			return substr($dateStr,0,strlen($dateStr)-1);
+			return LocalDateHelper::Format($format, $this->value);
 		}
-	}
-
-	/**
-	 * Callback for Format() translations
-	 *
-	 * @param array $m
-	 * @return string
-	 */
-	private function FormatLocalDate($m) {
-		if(empty($m[1])) {
-			// Nothing to translate
-			return $m[0];
-		}
-		return _t('LocalDate.'.$m[1],$m[1]).$m[2];
 	}
 
 }

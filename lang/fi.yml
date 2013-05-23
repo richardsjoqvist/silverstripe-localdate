@@ -47,6 +47,10 @@ fi:
     rd: ':s'
     th: ':s'
   LocalDateFormat:
+    Nice: 'j.n.Y'
+    Long: 'j F Y'
+    Full: 'j M Y'
+  LocalDatetimeFormat:
     Nice: 'j.n.Y g:ia'
     Nice24: 'j.n.Y H:i'
     Date: 'j.n.Y'

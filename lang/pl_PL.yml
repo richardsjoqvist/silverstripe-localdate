@@ -47,6 +47,10 @@ pl_PL:
     rd: rd
     th: th
   LocalDateFormat:
+    Nice: 'd/m/Y'
+    Long: 'j F Y'
+    Full: 'j M Y'
+  LocalDatetimeFormat:
     Nice: 'd/m/Y G:i'
     Nice24: 'd/m/Y H:i'
     Date: 'd/m/Y'

@@ -47,6 +47,10 @@ es:
     rd: °
     th: °
   LocalDateFormat:
+    Nice: 'd/m/Y'
+    Long: 'j F Y'
+    Full: 'j M Y'
+  LocalDatetimeFormat:
     Nice: 'd/m/Y g:ia'
     Nice24: 'd/m/Y H:i'
     Date: 'd/m/Y'

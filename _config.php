@@ -1,2 +1,3 @@
 <?php
-Object::useCustomClass('SS_Datetime', 'LocalDate');
+Object::useCustomClass('Date', 'LocalDate');
+Object::useCustomClass('SS_Datetime', 'LocalDatetime');
