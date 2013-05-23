@@ -2,18 +2,26 @@
 /**
  * Localized date names, extension of {@link SS_Date}
  */
-class LocalDate extends SS_Date {
+class LocalDatetime extends SS_Datetime {
 
 	public function Nice() {
-		if($this->value) return $this->Format(_t('LocalDateFormat.Nice','d/m/Y'));
+		if($this->value) return $this->Format(_t('LocalDateFormat.Nice','d/m/Y g:ia'));
 	}
 
 	public function Nice24() {
-		if($this->value) return $this->Format(_t('LocalDateFormat.Nice24','d/m/Y'));
+		if($this->value) return $this->Format(_t('LocalDateFormat.Nice24','d/m/Y H:i'));
 	}
 
 	public function Date() {
 		if($this->value) return $this->Format(_t('LocalDateFormat.Date','d/m/Y'));
+	}
+
+	public function Time() {
+		if($this->value) return $this->Format(_t('LocalDateFormat.Time','g:ia'));
+	}
+
+	public function Time24() {
+		if($this->value) return $this->Format(_t('LocalDateFormat.Time24','H:i'));
 	}
 
 	/**
