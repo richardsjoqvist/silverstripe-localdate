@@ -1,6 +1,6 @@
 <?php
 /**
- * Localized date names, extension of {@link SS_Date}
+ * Localized date names, extension of {@link SS_Datetime}
  */
 class LocalDatetime extends SS_Datetime {
 
