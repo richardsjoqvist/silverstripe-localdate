@@ -1,8 +1,8 @@
 <?php
 /**
- * Localized date names, extension of {@link SS_Date}
+ * Localized date names, extension of {@link Date}
  */
-class LocalDate extends SS_Date {
+class LocalDate extends Date {
 
 	public function Nice() {
 		if($this->value) return $this->Format(_t('LocalDateFormat.Nice','d/m/Y'));
