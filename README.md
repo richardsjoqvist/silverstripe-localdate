@@ -4,7 +4,7 @@ LocalDate translates formatted date strings to the locale set with i18n::set_loc
 
 ## Requirements
 
-* SilverStripe 3.0
+* SilverStripe 3.1
 
 ## Installation
 

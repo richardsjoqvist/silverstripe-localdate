@@ -1,0 +1,10 @@
+---
+Name: silverstripe-localdate
+After: 'framework/*','cms/*'
+---
+Injector:
+  Date:
+    class: LocalDate
+Injector:
+  SS_Datetime:
+    class: LocalDatetime
