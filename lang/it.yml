@@ -1,0 +1,59 @@
+it:
+  LocalDate:
+    Jan: Gen
+    Feb: Feb
+    Mar: Mar
+    Apr: Apr
+    May: Mag
+    Jun: Giu
+    Jul: Lug
+    Aug: Ago
+    Sep: Set
+    Oct: Ott
+    Nov: Nov
+    Dec: Dic
+    January: Gennaio
+    February: Febbraio
+    March: Marzo
+    April: Aprile
+    May: Maggio
+    June: Giugno
+    July: Luglio
+    August: Agosto
+    September: Settembre
+    October: Ottobre
+    November: Novembre
+    December: Dicembre
+    Mon: Lun
+    Tue: Mar
+    Wed: Mer
+    Thu: Gio
+    Fri: Ven
+    Sat: Sáb
+    Sun: Dom
+    Monday: Lunedì
+    Tuesday: Martedì
+    Wednesday: Mercoledì
+    Thursday: Giovedì
+    Friday: Venerdì
+    Saturday: Sabato
+    Sunday: Domenica
+    am: am
+    pm: pm
+    AM: AM
+    PM: PM
+    st: °
+    nd: °
+    rd: °
+    th: °
+  LocalDateFormat:
+    Nice: 'd/m/Y'
+    Long: 'j F Y'
+    Full: 'j M Y'
+  LocalDatetimeFormat:
+    Nice: 'd/m/Y g:ia'
+    Nice24: 'd/m/Y H:i'
+    Date: 'd/m/Y'
+    Time: 'g:ia'
+    Time24: 'H:i'
+
