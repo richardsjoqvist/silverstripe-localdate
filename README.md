@@ -22,6 +22,7 @@ You may also set the language manually using `LocalDateHelper::setLocale('xx_XX'
 The module will extend and override SS_Datetime and Date. Existing dates will be automatically translated as long as a valid language file exists as long as they are of SS_Datetime or Date type.
 
 The locale for the translated date is based on (in order):
+
 1. Any valid locale set with the `LocalDateHelper::setLocale('xx_XX');`
 2. The current locale for `Translatable` if the module is installed
 3. The current i18n-setting
