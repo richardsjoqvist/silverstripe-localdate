@@ -5,6 +5,20 @@
 class LocalDateHelper {
 
 	/**
+	 * @var string $locale
+	 */
+	private static $locale = null;
+
+	/**
+	 * Set which locale to use for dates (overrides current locale)
+	 *
+	 * @param string $locale Locale string, like "sv_SE", "en_US", "es", "fi" etc
+	 */
+	public static function setLocale($locale) {
+		self::$locale = $locale;
+	}
+
+	/**
 	 * Return the date using a particular formatting string.
 	 *
 	 * @param string $format Format code string. e.g. "d M Y" (see http://php.net/date)
@@ -13,6 +27,11 @@ class LocalDateHelper {
 	 */
 	public static function Format($format, $value) {
 		if($value){
+			// Use current locale if different from configured i18n locale
+			$i18nLocale = $currentLocale = i18n::get_locale();
+			if(class_exists("Translatable")) $currentLocale = Translatable::get_current_locale();
+			if(self::$locale) $currentLocale = self::$locale;
+			if($currentLocale != $i18nLocale) i18n::set_locale($currentLocale);
 			// Set date
 			$date = new DateTime($value);
 			// Flag escaped chars (or there will be problems with formats like "F\D")
@@ -33,6 +52,8 @@ class LocalDateHelper {
 				$dateStr.' ');
 			// Remove escape flags
 			$dateStr = str_replace($escapeId, '', $dateStr);
+			// Reset i18n locale
+			if($currentLocale != $i18nLocale) i18n::set_locale($i18nLocale);
 			// Return translated date string
 			return substr($dateStr, 0, strlen($dateStr)-1);
 		}
