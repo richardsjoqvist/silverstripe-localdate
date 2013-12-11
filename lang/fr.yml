@@ -1,0 +1,58 @@
+fr:
+  LocalDate:
+    Jan: Jan
+    Feb: Fév
+    Mar: Mar
+    Apr: Avr
+    May: Mai
+    Jun: Jui
+    Jul: Juil
+    Aug: Aoû
+    Sep: Sep
+    Oct: Oct
+    Nov: Nov
+    Dec: Déc
+    January: Janvier
+    February: Février
+    March: Mars
+    April: Avril
+    May: Mai
+    June: Juin
+    July: Juillet
+    August: Août
+    September: Septembre
+    October: Octobre
+    November: Novembre
+    December: Décembre
+    Mon: Lu
+    Tue: Ma
+    Wed: Me
+    Thu: Je
+    Fri: Ve
+    Sat: Sa
+    Sun: Di
+    Monday: Lundi
+    Tuesday: Mardi
+    Wednesday: Mercredi
+    Thursday: Jeudi
+    Friday: Vendredi
+    Saturday: Samedi
+    Sunday: Dimanche
+    am: snahgts
+    pm: 'smid-dahgs'
+    AM: SNAHGTS
+    PM: 'SMID-dahgs'
+    st: e
+    nd: e
+    rd: e
+    th: e
+  LocalDateFormat:
+    Nice: 'd-m-Y'
+    Long: 'j F Y'
+    Full: 'j M Y'
+  LocalDatetimeFormat:
+    Nice: 'd-m-Y g:i'
+    Nice24: 'd-m-Y H:i'
+    Date: 'd-m-Y'
+    Time: 'g:i'
+    Time24: 'H:i'
