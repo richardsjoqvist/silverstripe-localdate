@@ -28,3 +28,7 @@ The locale for the translated date is based on (in order):
 3. The current i18n-setting
 
 If the language file for your locale is missing you can easily create it yourself. Simply use one of the included language files as a template and save it to your `/mysite/lang` folder. Better yet, fork this repo and add it to the lang-folder and send me a pull request. Sending me an email (<mailto:richard@spiro.se>) with the translated file attached will also do the trick.
+
+## Troubleshooting
+
+If you are having trouble getting the module to work, you can try to add the injection code in `_config.php` in the [old fashioned way](https://github.com/richardsjoqvist/silverstripe-localdate/blob/959cf6143f6fd3705416a1489df834905d46704f/_config.php).
