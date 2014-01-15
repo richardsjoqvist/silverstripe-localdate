@@ -1,0 +1,58 @@
+de:
+  LocalDate:
+    Jan: Jan
+    Feb: Feb
+    Mar: Mär
+    Apr: Apr
+    May: Mai
+    Jun: Jun
+    Jul: Jul
+    Aug: Aug
+    Sep: Sep
+    Oct: Okt
+    Nov: Nov
+    Dec: Dez
+    January: Januar
+    February: Februar
+    March: März
+    April: April
+    May: Mai
+    June: Juni
+    July: Juli
+    August: August
+    September: September
+    October: Oktober
+    November: November
+    December: Dezember
+    Mon: Mo
+    Tue: Di
+    Wed: Mi
+    Thu: Do
+    Fri: Fr
+    Sat: Sa
+    Sun: So
+    Monday: Montag
+    Tuesday: Dienstag
+    Wednesday: Mittwoch
+    Thursday: Donnerstag
+    Friday: Freitag
+    Saturday: Samstag
+    Sunday: Sonntag
+    am: am
+    pm: pm
+    AM: AM
+    PM: PM
+    st: st
+    nd: nd
+    rd: rd
+    th: th
+  LocalDateFormat:
+    Nice: 'd.m.Y'
+    Long: 'j. F Y'
+    Full: 'j. M Y'
+  LocalDatetimeFormat:
+    Nice: 'd.m.Y H:i'
+    Nice24: 'd.m.Y H:i'
+    Date: 'd.m.Y'
+    Time: 'H:i:s'
+    Time24: 'H:i:s'
