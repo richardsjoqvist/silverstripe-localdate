@@ -56,3 +56,7 @@ fi:
     Date: 'j.n.Y'
     Time: 'g:ia'
     Time24: 'H:i'
+  LocalTimeFormat:
+    Nice: 'g:ia'
+    Nice24: 'H:i'
+    Short: 'g:ia'

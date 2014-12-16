@@ -8,3 +8,6 @@ Injector:
 Injector:
   SS_Datetime:
     class: LocalDatetime
+Injector:
+  Time:
+    class: LocalTime

@@ -56,3 +56,7 @@ hr:
     Date: 'd.m.Y.'
     Time: 'H:i:s'
     Time24: 'H:i:s'
+  LocalTimeFormat:
+    Nice: 'H:i:s'
+    Nice24: 'H:i:s'
+    Short: 'H:i'

@@ -56,4 +56,7 @@ it:
     Date: 'd/m/Y'
     Time: 'g:ia'
     Time24: 'H:i'
-
+  LocalTimeFormat:
+    Nice: 'g:ia'
+    Nice24: 'H:i'
+    Short: 'g:ia'

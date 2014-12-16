@@ -56,3 +56,7 @@ pl_PL:
     Date: 'd/m/Y'
     Time: 'G:i'
     Time24: 'H:i'
+  LocalTimeFormat:
+    Nice: 'G:i'
+    Nice24: 'H:i'
+    Short: 'G:i'

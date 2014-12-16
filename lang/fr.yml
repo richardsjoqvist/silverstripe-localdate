@@ -56,3 +56,7 @@ fr:
     Date: 'd-m-Y'
     Time: 'g:i'
     Time24: 'H:i'
+  LocalTimeFormat:
+    Nice: 'g:i'
+    Nice24: 'H:i'
+    Short: 'g:i'
