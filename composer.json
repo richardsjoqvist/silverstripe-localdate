@@ -14,5 +14,8 @@
 		"php": ">=5.3.2",
 		"composer/installers": "*",
 		"silverstripe/framework": "~3.1"
+	},
+	"extra": {
+		"installer-name": "localdate"
 	}
 }
