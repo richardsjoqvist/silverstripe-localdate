@@ -4,7 +4,7 @@ LocalDate translates formatted date strings if there is a matching language file
 
 ## Requirements
 
-* SilverStripe 3.1
+* SilverStripe 3.1 (this module will probably not be updated to SilverStripe 4)
 
 ## Notes
 
